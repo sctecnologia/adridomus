@@ -47,13 +47,13 @@ Reestructuración completa del sitio web de Adridomus Electric: de una landing p
 
 ---
 
-## Pendiente para Fase 2
+## Pendiente para Fase 2 (por prioridad)
 
-- [ ] Google Business Profile
-- [ ] Blog con artículos informativos
-- [ ] Testimonios de clientes reales
-- [ ] Contenido sobre "Sobre nosotros" más extenso (E-E-A-T)
-- [ ] Enlace funcional del formulario a backend (EmailJS, Formspree, etc.)
+- [ ] 🔴 Google Business Profile — Imprescindible para aparecer en el mapa
+- [ ] 🟡 Testimonios de clientes reales — Generan confianza
+- [ ] 🟡 Blog con artículos informativos — SEO a medio plazo
+- [ ] 🟡 Contenido "Sobre nosotros" más extenso (E-E-A-T) — Mejora autoridad
+- [ ] 🟢 Enlace funcional del formulario a backend (EmailJS, Formspree, etc.) — Actualmente solo WhatsApp
 
 ---
 

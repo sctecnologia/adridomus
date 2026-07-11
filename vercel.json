@@ -1,0 +1,27 @@
+{
+  "redirects": [
+    { "source": "/servicios/instalaciones-electricas", "destination": "/servicios/instalaciones-electricas/", "permanent": true },
+    { "source": "/servicios/averias-electricas", "destination": "/servicios/averias-electricas/", "permanent": true },
+    { "source": "/servicios/reparaciones-hogar", "destination": "/servicios/reparaciones-hogar/", "permanent": true },
+    { "source": "/servicios/placas-solares", "destination": "/servicios/placas-solares/", "permanent": true },
+    { "source": "/legal/aviso-legal", "destination": "/legal/aviso-legal/", "permanent": true },
+    { "source": "/legal/politica-privacidad", "destination": "/legal/politica-privacidad/", "permanent": true },
+    { "source": "/legal/politica-cookies", "destination": "/legal/politica-cookies/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,11 @@
-const CACHE = 'adridomus-v2';
+const CACHE = 'adridomus-v3';
 
 const PRECACHE = [
   './',
   'index.html',
   'style.css',
   'script.js',
+  '404.html',
   'img/optimized/banner.webp',
   'img/optimized/banner@400w.webp',
   'img/optimized/banner@800w.webp',
@@ -17,6 +18,9 @@ const PRECACHE = [
   'servicios/averias-electricas/index.html',
   'servicios/reparaciones-hogar/index.html',
   'servicios/placas-solares/index.html',
+  'legal/aviso-legal/index.html',
+  'legal/politica-privacidad/index.html',
+  'legal/politica-cookies/index.html',
 ];
 
 self.addEventListener('install', event => {
